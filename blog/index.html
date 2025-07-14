@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="../css/global.css" />
-    <link rel="stylesheet" href="../css/prices.css" />
+    <link rel="stylesheet" href="../css/blog.css" />
 </head>
 
 <body>
@@ -26,8 +26,8 @@
                 <nav class="mobile-nav">
                     <ul>
                         <li><a href="../">Главная</a></li>
-                        <li><a href="./">Цены</a></li>
-                        <li><a href="../blog/">Блог</a></li>
+                        <li><a href="../prices/">Цены</a></li>
+                        <li><a href="./">Блог</a></li>
                         <li><a href="#">О компании</a></li>
                     </ul>
                 </nav>
@@ -38,8 +38,8 @@
             <nav class="header-nav">
                 <ul>
                     <li><a href="../">Главная</a></li>
-                    <li><a href="./">Цены</a></li>
-                    <li><a href="../blog/">Блог</a></li>
+                    <li><a href="../prices/">Цены</a></li>
+                    <li><a href="./">Блог</a></li>
                     <li><a href="#">О компании</a></li>
                 </ul>
             </nav>
@@ -64,82 +64,64 @@
     </header>
     <main>
         <div class="hero-section">
-            <div class="hero-section-text-block">
-                <h1>Цены на услуги</h1>
-                <p>Выберите подходящий вариант и свяжитесь с нами, мы<br> проконсультируем и подберем под вас гибкий
-                    тариф.
-                </p>
+            <div class="hero-section-text">
+                <h1>Наш блог</h1>
+                <p>Здесь мы делимся полезными знаниями и новостями компании.</p>
             </div>
-            <div class="hero-section-button-section">
-                <button>Получить консультацию<svg width="18" height="18" viewBox="0 0 18 18" fill="none"
-                        xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M3.54 2C3.6 2.89 3.75 3.76 3.99 4.59L2.79 5.79C2.38 4.59 2.12 3.32 2.03 2H3.54ZM13.4 14.02C14.25 14.26 15.12 14.41 16 14.47V15.96C14.68 15.87 13.41 15.61 12.2 15.21L13.4 14.02ZM4.5 0H1C0.45 0 0 0.45 0 1C0 10.39 7.61 18 17 18C17.55 18 18 17.55 18 17V13.51C18 12.96 17.55 12.51 17 12.51C15.76 12.51 14.55 12.31 13.43 11.94C13.33 11.9 13.22 11.89 13.12 11.89C12.86 11.89 12.61 11.99 12.41 12.18L10.21 14.38C7.38 12.93 5.06 10.62 3.62 7.79L5.82 5.59C6.1 5.31 6.18 4.92 6.07 4.57C5.7 3.45 5.5 2.25 5.5 1C5.5 0.45 5.05 0 4.5 0Z"
-                            fill="#734CF5" />
-                    </svg>
-                </button>
+            <div class="hero-section-buttons">
+                <button>Об IT</button>
+                <button>Новости компании</button>
+                <button>Полезные знания</button>
+                <button>Про маркетинг</button>
+                <button>Про дизайн</button>
+                <button>Про разработку</button>
             </div>
         </div>
-        <div class="prices">
-            <ul>
-                <li class="prices-element">
-                    <div class="prices-info">
-                        <h2>Дизайн</h2>
-                        <span class="price-text">₽150.000</span>
-                        <p>
-                            Идеально для малых бизнесов и стартапов, которые хотят создать свой узнаваемый стиль.
-                            Поможет выделиться среди конкурентов засчет уникальности.
-                        </p>
-                    </div>
-                    <div class="prices-decoration">Что вы получите</div>
-                    <ul class="prices-main-info">
-                        <li><img src="../images/purple-check-marker.png" alt="">Логотип и фирменный стиль</li>
-                        <li><img src="../images/purple-check-marker.png" alt="">Один концепт дизайна</li>
-                        <li><img src="../images/purple-check-marker.png" alt="">Дизайн для 10 страниц</li>
-                        <li><img src="../images/purple-check-marker.png" alt="">Анимации и интерактивные элементы</li>
-                        <li><img src="../images/purple-check-marker.png" alt="">Правки до финального утверждения</li>
-                    </ul>
+        <div class="posts-section">
+            <ul class="posts">
+                <li class="post">
+                    <img src="../images/posts-image-1.png" alt="">
+                    <span class="category">Полезные знания</span>
+                    <h2>Как выбрать подходящую платформу для мобильного приложения?</h2>
+                    <p>Выбор платформы для мобильного приложения может оказаться сложной задачей. В этом посте мы
+                        рассмотрим плюсы и минусы различных платформ, включая нативную и кроссплатформенную разработку.
+                        Мы поделимся советами, как определить идеальный вариант для вашего проекта, исходя из целевой
+                        аудитории и бюджета.</p>
+                    <span class="date">21.11.2024</span>
                 </li>
-                <li class="prices-element">
-                    <div class="prices-info">
-                        <h2>Мобильное приложение</h2>
-                        <span class="price-text">₽700.000</span>
-                        <p>
-                            Подходит для проектов с высокими требованиями, где необходимо создать уникальное приложение
-                            с персонализированными функциями.
-                        </p>
-                    </div>
-                    <div class="prices-decoration">Что вы получите</div>
-                    <ul class="prices-main-info">
-                        <li><img src="../images/white-check-marker.png" alt="">Мобильное приложение для iOS и Android
-                        </li>
-                        <li><img src="../images/white-check-marker.png" alt="">Интеграция с внешними сервисами и API
-                        </li>
-                        <li><img src="../images/white-check-marker.png" alt="">Анимации и оригинальный дизайн</li>
-                        <li><img src="../images/white-check-marker.png" alt="">Поддержка в течение 3 месяцев</li>
-                        <li><img src="../images/white-check-marker.png" alt="">Проектирование UX/UI</li>
-                        <li><img src="../images/white-check-marker.png" alt="">Тестирование</li>
-                        <li><img src="../images/white-check-marker.png" alt="">Публикация в магазины приложений</li>
-                    </ul>
+                <li class="post">
+                    <img src="../images/posts-image-2.png" alt="">
+                    <span class="category">Про дизайн</span>
+                    <h2>Тренды в дизайне интерфейсов в 2024 году</h2>
+                    <p>В мире дизайна важен не только талант, но и правильные инструменты. В этом посте мы собрали
+                        список незаменимых приложений и утилит для UX/UI-дизайнеров, которые помогут ускорить процесс
+                        разработки и улучшить качество пользовательского опыта. Узнайте, какие инструменты рекомендуют
+                        профессионалы!</p>
+                    <span class="date">18.11.2024</span>
                 </li>
-                <li class="prices-element">
-                    <div class="prices-info">
-                        <h2>Веб-сайт</h2>
-                        <span class="price-text">₽250.000</span>
-                        <p>
-                            Подходит для компаний, которым нужен многостраничный сайт, чтобы наглядно представить свои
-                            услуги или продукты, а так же рассказать о компании.
-                        </p>
+                <li class="post">
+                    <img src="../images/posts-image-3.png" alt="">
+                    <div>
+                        <span class="category">Про разработку</span>
+                        <span class="category">Полезные знания</span>
                     </div>
-                    <div class="prices-decoration">Что вы получите</div>
-                    <ul class="prices-main-info">
-                        <li><img src="../images/white-check-marker.png" alt="">Многостраничный сайт до 10 страниц</li>
-                        <li><img src="../images/white-check-marker.png" alt="">Уникальный дизайн</li>
-                        <li><img src="../images/white-check-marker.png" alt="">Интеграция социальных сетей</li>
-                        <li><img src="../images/white-check-marker.png" alt="">Поддержка в течение 3 месяцев</li>
-                        <li><img src="../images/white-check-marker.png" alt="">SEO-оптимизация</li>
-                        <li><img src="../images/white-check-marker.png" alt="">Интеграция CRM и других систем</li>
-                    </ul>
+                    <h2>10 ошибок при разработке приложений и как их избежать</h2>
+                    <p>При разработке приложений легко столкнуться с распространенными ошибками, которые могут негативно
+                        повлиять на успех проекта. В этом посте мы собрали 10 основных ошибок, которые следует избегать,
+                        и поделимся полезными советами, как защитить свой проект и обеспечить его успех на рынке.
+                        Узнайте, как сделать ваше приложение лучше!</p>
+                    <span class="date">10.11.2024</span>
+                </li>
+                <li class="post">
+                    <img src="../images/posts-image-4.png" alt="">
+                    <span class="category">Новости компании</span>
+                    <h2>Новые достижения нашей команды: итоги квартала</h2>
+                    <p>Мы рады поделиться с вами последними новостями из нашей компании! В этом посте мы подведем итоги
+                        прошедшего квартала и расскажем о наших больших достижениях. Наша команда успешно завершила
+                        несколько важных проектов, внедрила новые технологии и расширила клиентскую базу. Кроме того, мы
+                        провели несколько социальных мероприятий и тренингов, направленных на развитие наших
+                        сотрудников.</p>
+                    <span class="date">31.10.2024</span>
                 </li>
             </ul>
         </div>
