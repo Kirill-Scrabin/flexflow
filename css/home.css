@@ -1,3 +1,9 @@
+.header-nav li:nth-child(1), .mobile-nav li:nth-child(1) {
+    color: #734CF5;
+}
+
+
+
 /* Hero section */
 .hero-section {
   color: var(--color-white);
