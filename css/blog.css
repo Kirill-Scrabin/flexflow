@@ -23,6 +23,9 @@
 
 .hero-section-text h1 {
     font-size: var(--text-3xl);
+    text-align: center;
+    font-weight: var(--font-medium);
+    font-size: 44px;
     line-height: 48px;
     text-align: center;
 }
